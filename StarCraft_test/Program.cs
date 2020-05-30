@@ -14,7 +14,15 @@ namespace StarCraft_test
             units[0] = m1;
             units[1] = t1;
             GoToCenter(units);
+            GoAndCome(m1, 8, 9);
+            GoAndCome(t1, 8, 9);
 
+        }
+
+        private static void GoAndCome(Unit units, int p1, int p2)
+        {
+            units.Move(x,y);
+            units.Move(1,1);
         }
 
         static void GoToCenter(Unit[] units)
