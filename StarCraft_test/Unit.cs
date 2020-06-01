@@ -1,6 +1,8 @@
-﻿namespace StarCraft_test
+﻿using System;
+
+namespace StarCraft_test
 {
-    public class Unit
+    abstract class Unit
     {
         protected int _x;
         protected int _y;
@@ -10,5 +12,14 @@
             _x = x;
             _y = y;
         }
+
+        public  void SayHello()
+        {
+            string name = GetName();
+            Console.WriteLine($"Unit Name is {name}. ");
+        }
+
+        public abstract string GetName();
+        
     }
 }

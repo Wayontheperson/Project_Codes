@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\ji-hyeon\\.nuget\\packages\\": {}
+    "C:\\Users\\kccistc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#code\\StarCraft_test\\StarCraft_test\\StarCraft_test.csproj",
+      "projectUniqueName": "C:\\t\\helloworld\\Project_Codes\\StarCraft_test\\StarCraft_test.csproj",
       "projectName": "StarCraft_test",
-      "projectPath": "C:\\C#code\\StarCraft_test\\StarCraft_test\\StarCraft_test.csproj",
-      "packagesPath": "C:\\Users\\ji-hyeon\\.nuget\\packages\\",
-      "outputPath": "C:\\C#code\\StarCraft_test\\StarCraft_test\\obj\\",
+      "projectPath": "C:\\t\\helloworld\\Project_Codes\\StarCraft_test\\StarCraft_test.csproj",
+      "packagesPath": "C:\\Users\\kccistc\\.nuget\\packages\\",
+      "outputPath": "C:\\t\\helloworld\\Project_Codes\\StarCraft_test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ji-hyeon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kccistc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,12 +53,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

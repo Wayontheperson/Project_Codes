@@ -2,6 +2,10 @@
 {
     class FireBat : Unit
     {
-        
+        public override string GetName()
+        {
+            return "FireBat";
+        }
     }
+    
 }

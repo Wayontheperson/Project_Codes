@@ -9,11 +9,17 @@
             _seiged = true;
         }
 
-        public override void Move(int x, int y)
+        public override string GetName()
         {
-            if (_seiged)
+            return "Tank";
+        }
+        public virtual void Move(int x, int y)
+        {
+            if (_seiged = true)
                 return;
+            
             base.Move(x,y);
         }
+        
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using Starcraft;
 
 namespace StarCraft_test
 {
@@ -6,13 +7,21 @@ namespace StarCraft_test
     {
         static void Main(string[] args)
         {
-            Unit m1=new Marine();
+            Marine m1=new Marine();
             Tank t1=new Tank();
             t1.ToSeigeMode();
             
             Unit[] units= new Unit[2];
             units[0] = m1;
             units[1] = t1;
+
+            for (int i = 0; i< units.Length; i++)
+            {
+                units[i].Move(100,100);     // virtual , override ex
+                units[i].SayHello();     
+                units[i].GetName();      // abstract ex
+
+            }
             GoToCenter(units);
 
         }
